@@ -10,7 +10,7 @@ variable "tags" {
 variable "my_ip" {
   type        = string
   description = "Your IP address in CIDR notation (e.g., 1.2.3.4/32) for SSH access"
-  default     = "45.4.86.0/24" # Replace with your actual IP address
+  default     = "0.0.0.0/0" # Replace with your actual IP address
 }
 
 variable "instance_type" {

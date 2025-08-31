@@ -1,3 +1,5 @@
+# Fetch your current public IP address and convert it to CIDR notation
+
 # data "http" "myip" { url = "https://checkip.amazonaws.com" }
 
 # locals {
